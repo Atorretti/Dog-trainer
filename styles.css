@@ -1,0 +1,208 @@
+/* HTML - Hard */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding-top: 80px;
+    text-align: justify;
+    scroll-behavior: instant; /* You can also use "auto" for the default behavior */
+
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgb(134, 134, 134);
+    color: white;
+    padding: 10px;
+    z-index: 1000;
+    max-height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+
+#logo {
+    height: 100%;
+    /* Set the height to match the navbar's maximum height */
+    width: 110px;
+    /* Set the desired width for the logo image */
+    margin-left: 10px;
+    border-radius: 10px;
+
+}
+
+#welcome_image {
+    max-width: 100%;
+    /* Ensure the image doesn't exceed the viewport width */
+    max-height: 100%;
+    /* Ensure the image doesn't exceed the viewport height */
+    margin: auto;/
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+#menu {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: center;
+}
+
+#menu li {
+    margin: 0 25px;
+    /* Add some horizontal spacing between list items */
+}
+
+#menu li a {
+    font-size: 30px;
+    color: rgb(87, 32, 133);
+    text-decoration: none;
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+
+}
+
+#menu li:first-child {
+    margin-left: 0;
+    /* Remove left margin from the first list item */
+}
+
+#menu li:last-child {
+    margin-right: 0;
+    /* Remove right margin from the last list item */
+}
+#paw {
+    width: 30px;
+    height: 30px;
+}
+
+section {
+    height: 90vh;
+    scroll-margin-top: 80px;
+    background: rgb(255, 255, 255);
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+}
+
+.media-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* Adjust this based on your preferred spacing */
+}
+
+.video_container {
+    flex-basis: calc(50% - 10px);
+    /* Adjust the width of the video */
+
+}
+
+#image-media {
+    border-radius: 10px;
+    width: 470px;
+    margin-right: 20px;
+    flex-basis: calc(50% - 10px);
+    /* Adjust the width of the image */
+
+}
+
+.content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 250px;
+    padding-right: 250px;
+}
+
+.text {
+    flex: 1;
+    text-align: justify;
+    padding-right: 20px;
+    padding-top: 30px;
+}
+.paw-image {
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10px; /* Adjust the spacing between the image and text */
+}
+
+img {
+    flex-shrink: 0;
+    max-width: 100%;
+  
+}
+
+#image2 {
+    flex-shrink: 0;
+    max-width: 400px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+   
+
+}
+
+
+h1,
+h2,
+p {
+    margin: 0 0 10px;
+}
+h1 {
+    font-size: 36px; /* You can adjust the size to your preference */
+}
+
+label,
+input,
+textarea,
+button {
+    display: block;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+ 
+    background: #333;
+    color: white;
+    padding: 15px;
+    text-align: center;
+   
+}
+
+#footer-links a {
+    color: white;
+    text-decoration: none;
+}
+
+#footer-links a:hover {
+    text-decoration: underline;
+}
+
+form {
+    margin-top: 20px;
+    padding: 20px;
+}
+iframe{
+    border-radius: 10px;
+    padding-bottom: 20px;
+}
