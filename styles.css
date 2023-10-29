@@ -110,6 +110,7 @@ section {
 }
 
 .video_container {
+    width: 100%; /* Set the width to 100% to fit the screen width */
     flex-basis: calc(50% - 10px);
     /* Adjust the width of the video */
 
@@ -225,25 +226,7 @@ iframe{
     padding-bottom: 20px;
 }
 
-@media (max-width: 820px) {
-    /* Adjust section layout for smaller screens */
-    section {
-       
-        height: auto;
-    }
 
-    .content-wrapper {
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-    padding: 25px;
-
-    }
-   
-    .text {
-        padding: 20px;
-    }
-}
 
 @media (max-width: 820px) {
     .media-container {
@@ -266,7 +249,7 @@ iframe{
     /* Add any other necessary styles for smaller screens */
 }
 
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     #navbar {
         position: fixed;
         top: 0;
@@ -301,7 +284,7 @@ iframe{
         margin-right: 0;
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     iframe {
         width: 100%; /* Make the iframe take the full width of the screen */
         max-width: 100%; /* Ensure it doesn't exceed the screen width */
@@ -309,8 +292,28 @@ iframe{
        
     }
 }
-@media (max-width: 768px) {
+@media (max-width: 820px) {
     #menu li a {
         font-size: 18px; /* Adjust the font size to make all menu items smaller */
     }
+}
+@media (max-width: 820px) {
+    /* Adjust section layout for smaller screens */
+    section {
+       
+        height: auto;
+    }
+
+    .content-wrapper {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    padding: 25px;
+
+    }
+   
+    .text {
+        padding: 20px;
+    }
+    
 }
